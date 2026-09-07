@@ -137,7 +137,7 @@ export function PackLandingPage({ pack }: PackLandingPageProps) {
         <div className="mt-8">
           <ImageOrPlaceholder
             image={pack.hero}
-            className="aspect-square w-full rounded-xl object-cover"
+            className="h-auto w-full rounded-xl object-contain"
             priority
           />
         </div>

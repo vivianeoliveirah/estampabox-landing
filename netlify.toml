@@ -4,22 +4,3 @@
 
 [build.environment]
   NODE_VERSION = "22"
-[[redirects]]
-  from = "/pack-lula"
-  to = "/pack-lula/"
-  status = 301
-
-[[redirects]]
-  from = "/pack-augusto"
-  to = "/pack-augusto/"
-  status = 301
-
-[[redirects]]
-  from = "/pack-lula/*"
-  to = "/pack-lula/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/pack-augusto/*"
-  to = "/pack-augusto/index.html"
-  status = 200
